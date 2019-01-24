@@ -1,0 +1,33 @@
+﻿Build started 1/21/2016 6:11:48 PM.
+     1>Project "e:\C_Programming\Addition\Addition\Addition.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "e:\C_Programming\Addition\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\Addition.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt AdditionCode.c
+         AdditionCode.c
+     1>e:\c_programming\addition\addition\additioncode.c(6): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>e:\c_programming\addition\addition\additioncode.c(7): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Addition.exe.embed.manifest.res" Debug\Addition_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"e:\C_Programming\Addition\Debug\Addition.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Addition.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"e:\C_Programming\Addition\Debug\Addition.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"e:\C_Programming\Addition\Debug\Addition.lib" /MACHINE:X86 Debug\Addition.exe.embed.manifest.res
+         Debug\AdditionCode.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Addition.exe.embed.manifest" /manifest Debug\Addition.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Addition.exe.embed.manifest.res" Debug\Addition_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"e:\C_Programming\Addition\Debug\Addition.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Addition.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"e:\C_Programming\Addition\Debug\Addition.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"e:\C_Programming\Addition\Debug\Addition.lib" /MACHINE:X86 Debug\Addition.exe.embed.manifest.res
+         Debug\AdditionCode.obj
+         Addition.vcxproj -> e:\C_Programming\Addition\Debug\Addition.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Addition.unsuccessfulbuild".
+         Touching "Debug\Addition.lastbuildstate".
+     1>Done Building Project "e:\C_Programming\Addition\Addition\Addition.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:27.32
